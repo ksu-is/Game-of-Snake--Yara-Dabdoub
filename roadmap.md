@@ -1,7 +1,21 @@
-- [x] Create repository
-- [x] Create Roadmap
-- [x] Related Reposity: https://gist.github.com/wynand1004/ec105fd2f457b10d971c09586ec44900
-- [x] Test the repository and see if the code is working
-- [x] Get the code ready for second sprint
-- [ ] Make key changes to the code so that it runs optimally
-- [ ] Test run a whole game of "Snake"
+Sprint 1:
+ Proposed a topic and submitted it for approval.
+ Awaiting approval.
+ Joined KSU-IS.
+ Created a repository on GitHub.
+ Developed a README.md and projectroadmap.md.
+ Researched similar repositories within the organization related to the program.
+
+Sprint 2:
+() make small updates and commit messages in repository
+() 6 code changes 
+    () 1 
+    () 2
+    () 3
+    () 4
+    () 5
+    () 6
+() each commit has a comment explains what you did
+() submitted quiz
+
+ Sprint 3:
