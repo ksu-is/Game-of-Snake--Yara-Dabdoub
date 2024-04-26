@@ -104,16 +104,7 @@ def start_game(turns):
     for _ in range(turns):
         while True:
             wn.update()
-# Keyboard bindings
-wn.listen()
-wn.onkeypress(go_up, "w")
-wn.onkeypress(go_down, "s")
-wn.onkeypress(go_left, "a")
-wn.onkeypress(go_right, "d")
-
-# Main game loop
-while True:
-    wn.update()
+            
 
     # Check for a collision with the border
     if head.xcor()>290 or head.xcor()<-290 or head.ycor()>290 or head.ycor()<-290:
