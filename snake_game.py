@@ -56,8 +56,11 @@ pen.shape("square")
 pen.color("white")
 pen.penup()
 pen.hideturtle()
-pen.goto(0, 260)
-pen.write("Score: 0  High Score: 0", align="center", font=("Courier", 24, "normal"))
+
+# Global variables
+delay = 0.1
+score = 0
+high_score = 0
 
 # Functions
 def go_up():
