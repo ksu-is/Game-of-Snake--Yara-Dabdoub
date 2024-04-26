@@ -9,6 +9,18 @@ wn.bgcolor("green")
 wn.setup(width=600, height=600)
 wn.tracer(0) # Turns off the screen updates
 
+# Welcome Message
+welcome_pen = turtle.Turtle()
+welcome_pen.speed(0)
+welcome_pen.color("white")
+welcome_pen.penup()
+welcome_pen.hideturtle()
+welcome_pen.goto(0, 50)
+welcome_pen.write("Welcome to Snake Game", align="center", font=("Courier", 24, "normal"))
+welcome_pen.goto(0, 0)
+welcome_pen.write("Press Enter to Play", align="center", font=("Courier", 24, "normal"))
+
+
 
 
 # Score
