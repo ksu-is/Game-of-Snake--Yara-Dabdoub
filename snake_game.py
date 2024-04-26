@@ -150,8 +150,8 @@ def start_game(turns):
         if score > high_score:
             high_score = score
         
-        pen.clear()
-        pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal")) 
+        playing_pen.clear()
+        playing_pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
     # Move the end segments first in reverse order
     for index in range(len(segments)-1, 0, -1):
