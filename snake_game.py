@@ -120,9 +120,9 @@ def start_game(turns):
         segments.clear()
 
        # Reset the score
-                score = 0
+       score = 0
 
-                playing_pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
+       playing_pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
 
 
@@ -183,13 +183,13 @@ def start_game(turns):
 
             # Reset the score
             score = 0
-
-            # Reset the delay
-            delay = 0.1
-        
+            
             # Update the score display
-            pen.clear()
-            pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
+            playing_pen.clear()
+            playing_pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
+
+            
+            
 
     time.sleep(delay)
 
