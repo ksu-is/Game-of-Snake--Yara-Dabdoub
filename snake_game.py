@@ -198,3 +198,10 @@ wn.onkeypress(go_down, "s")
 wn.onkeypress(go_left, "a")
 wn.onkeypress(go_right, "d")
 wn.mainloop()
+
+# Function to start the game with specified number of turns
+def start_game_with_turns():
+    turns = int(wn.numinput("Number of Turns", "Enter the number of turns:", default=3, minval=1))
+    start_game(turns)
+
+wn.onkeypress(start_game_with_turns, "Return")
