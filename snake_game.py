@@ -189,8 +189,12 @@ def start_game(turns):
             playing_pen.write("Score: {}  High Score: {}".format(score, high_score), align="center", font=("Courier", 24, "normal"))
 
             
-            
-
     time.sleep(delay)
-
+    
+# Keyboard bindings
+wn.listen()
+wn.onkeypress(go_up, "w")
+wn.onkeypress(go_down, "s")
+wn.onkeypress(go_left, "a")
+wn.onkeypress(go_right, "d")
 wn.mainloop()
