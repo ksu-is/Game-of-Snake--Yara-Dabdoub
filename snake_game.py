@@ -20,7 +20,14 @@ welcome_pen.write("Welcome to Snake Game", align="center", font=("Courier", 24, 
 welcome_pen.goto(0, 0)
 welcome_pen.write("Press Enter to Play", align="center", font=("Courier", 24, "normal"))
 
-
+# Set up playing screen
+playing_pen = turtle.Turtle()
+playing_pen.speed(0)
+playing_pen.color("white")
+playing_pen.penup()
+playing_pen.hideturtle()
+playing_pen.goto(0, 260)
+playing_pen.write("Score: 0  High Score: 0", align="center", font=("Courier", 24, "normal"))
 
 
 # Score
