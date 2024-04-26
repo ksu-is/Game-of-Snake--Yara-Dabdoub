@@ -95,7 +95,15 @@ def move():
     if head.direction == "right":
         x = head.xcor()
         head.setx(x + 20)
-
+# Main game loop
+def start_game(turns):
+    global delay, score, high_score  # Declare global variables
+    welcome_pen.clear()
+    playing_pen.clear()
+    delay = 0.1  # Initialize delay
+    for _ in range(turns):
+        while True:
+            wn.update()
 # Keyboard bindings
 wn.listen()
 wn.onkeypress(go_up, "w")
